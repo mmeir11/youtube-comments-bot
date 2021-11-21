@@ -1,9 +1,3 @@
-/* import puppeteer from 'puppeteer';
-import { autoScroll } from './lib/helper';
-import login from './lib/login';
-import responding from './lib/responding';
-import search from './lib/search';
- */
 const puppeteer = require('puppeteer');
 const { autoScroll } = require('./lib/helper');
 const login = require('./lib/login');
