@@ -1,0 +1,30 @@
+<html>
+
+<head>
+  <script defer src="./index.js"></script>
+  <!-- <script defer type="module" src="./index.js"></script> -->
+</head>
+
+<body>
+  <form method="post" enctype="multipart/form-data">
+    <div>
+      <label for="email">Google email</label>
+      <input type="text" id="email" name="email" multiple>
+    </div>
+    <div>
+      <label for="password">Google password</label>
+      <input type="password" id="password" name="email" multiple>
+    </div>
+    <div>
+        <label for="comment">Comment</label>
+      <div>
+        <textarea id="comment" cols="40" rows="5"></textarea>
+      </div>
+    </div>
+    <div>
+      <button onclick="startBot()">Submit</button>
+    </div>
+  </form>
+</body>
+
+</html>
