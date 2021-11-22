@@ -7,7 +7,7 @@ const search = require('./lib/search');
 const startBot = async () => {
   console.log('start')
 
-  const email = 'mmeirasu'
+  const email = 'mmeiras'
   const password = 'Ma112233'
   const wordToSearch = 'fortnite'
   const comment = 'The coolest Fortnite T shirt I ever seen!!! \n https://www.redbubble.com/i/t-shirt/Cool-Fortnite-T-Shirt-by-mmeir12/94953418.1YYVU?asc=u'
