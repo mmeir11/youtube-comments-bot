@@ -9,13 +9,12 @@ const startBot = async () => {
 
   const email = 'mmeirasu'
   const password = 'Ma112233'
-  const wordToSearch = 'fortnight'
+  const wordToSearch = 'fortnite'
+  const comment = 'The coolest Fortnite T shirt I ever seen!!! \n https://www.redbubble.com/i/t-shirt/Cool-Fortnite-T-Shirt-by-mmeir12/94953418.1YYVU?asc=u'
 
   const browser = await puppeteer.launch({
     headless: false,
     defaultViewport: { width: 0, height: 0 },
-    // args: ['--start-fullscreen'],
-    // args: ["--start-maximized"],
     args: [`--window-size=1920,1080`],
   })
 
@@ -39,7 +38,7 @@ const startBot = async () => {
 
   console.log(`trying to search ${wordToSearch}`)
 
-  await search(browser, page, wordToSearch)
+  await search(browser, page, wordToSearch, comment)
 
   // await browser.close();
   await page.waitForTimeout(1000);
